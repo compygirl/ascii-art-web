@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.StatusCodeAndText}}</title>
+</head>
+<body>
+    <style>
+        textarea {
+            border-color: red;
+            border-radius: 10px;
+        }
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', monospace, 'Trebuchet MS', sans-serif;
+        }
+        .button {
+            background-color: aquamarine;
+            font-family: monospace;
+            border-radius: 0px;
+        }
+    </style>
+    <h1>ERROR {{.StatusCodeAndText}}</h1>
+    <p>{{.MessageError}}</p>
+    <a href="/">Go back to main page</a>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<style>
+    textarea {
+        border-color: red;
+        border-radius: 10px;
+    }
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', monospace, 'Trebuchet MS', sans-serif;
+    }
+    .button {
+        background-color: aquamarine;
+        font-family: monospace;
+        border-radius: 0px;
+    }
+</style>
+<h1>ASCII ART WEB</h1>
+
+<form method = "POST" action="/ascii-art">
+    <p>Please select your favorite Font:</p>
+    <input type="radio" id="standard" name="font" value="standard" checked>
+    <label for="standard">standard</label><br>
+    <input type="radio" id="shadow" name="font" value="shadow">
+    <label for="shadow">shadow</label><br>
+    <input type="radio" id="thinkertoy" name="font" value="thinkertoy">
+    <label for="thinkertoy">thinkertoy</label>
+  
+    <br>  
+  
+    <p>Please insert the text:</p>
+
+    <textarea id="w3review" name="w3review1" rows="10" cols="50" placeholder="write here"></textarea>
+    <input type="submit" value="Submit" style="margin-top: -90px;" class="button">
+    </br>
+    <pre>{{.}}</pre>
+  </form>
