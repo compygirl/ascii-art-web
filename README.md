@@ -20,7 +20,7 @@ Ascii-art-web consists in creating and running a server, in which it will be pos
 ## Usage/Examples
 Cloning storage to your host
 ```CMD/Terminal 
-git clone git@git.01.alem.school:bbilisbe/ascii-art-web.git
+git clone git@github.com:compygirl/ascii-art-web.git
 ```
 Go to the downloaded repository:
 
